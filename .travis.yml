@@ -2,5 +2,6 @@ language: csharp
 solution: ./CentralDeErros/CentralDeErros.sln
 mono: latest
 dotnet: 3.0.100
+
 script:
- - dotnet restore
+ - dotnet build
