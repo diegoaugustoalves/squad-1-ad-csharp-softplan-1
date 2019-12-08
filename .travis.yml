@@ -4,4 +4,4 @@ mono: latest
 dotnet: 3.0.100
 
 script:
- - dotnet build
+ - dotnet build ./CentralDeErros/CentralDeErros.sln
