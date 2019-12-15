@@ -15,5 +15,7 @@ jobs:
         dotnet-version: 3.0.100
     - name: Build with dotnet
       run: dotnet build ./CentralDeErros/CentralDeErros.sln
-    - name: Run unit tests
+    - name: Run domain unit tests
+      run: dotnet test ./CentralDeErros/CentralDeErros.Domain.Test/CentralDeErros.Domain.Test.csproj
+    - name: Run domain unit 
       run: dotnet test ./CentralDeErros/CentralDeErros.Domain.Test/CentralDeErros.Domain.Test.csproj /p:CollectCoverage=true
